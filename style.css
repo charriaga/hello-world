@@ -1,5 +1,61 @@
 /* ref stylesheet */
 
-h1 {
-    color: rgb(127, 255, 212);
+body {
+    background-color: rgb(183, 241, 228);
+}
+
+h1{
+    color: rgb(69, 53, 69);
+}
+
+header {
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+ #one-txt {
+    color:rgb(69, 53, 69);
+    font-size: large;
+    width: 60%;
+    float: left;
+
+ }
+
+#first {
+    width: 40%;
+    float: right;
+}
+
+article {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 101, 91);
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+img {
+    width: 70%;
+    margin 10px;
+}
+
+footer {
+    text-align: center;
 }
