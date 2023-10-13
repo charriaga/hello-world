@@ -15,7 +15,7 @@ header {
 
 ul {
     list-style: none;
-    display: inline-block;
+    display: inline;
 }
 
 h2 {
@@ -32,7 +32,7 @@ section {
  #one-txt {
     color:rgb(69, 53, 69);
     font-size: large;
-    width: 60%;
+    width: 57%;
     float: left;
 
  }
@@ -49,11 +49,12 @@ article {
     display: inline-block;
     width: 30%;
     padding: 10px;
+    vertical-align: top;
 }
 
 img {
     width: 70%;
-    margin 10px;
+    margin: 10px;
 }
 
 footer {
