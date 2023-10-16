@@ -17,13 +17,11 @@ function question() {
 
 function sayYes() {
     let text
-    confirm('Say ok'); {
         if (confirm('Say ok') == true) {
             text = 'Fish bowls are for cowards.';
         } else {
             text = 'Exercise your fish.';
                 }
-            }
     document.write(text)
     return text
     }
