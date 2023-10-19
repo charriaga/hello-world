@@ -1,18 +1,32 @@
 'use strict'
 
+let guessAttempts = true
+
 function question() {
-    const Like = prompt('Do you like bettas')
-        if (Like == 'yes'){
+    //let Like = prompt('Do you like bettas?');
+   
+    while (guessAttempts){
+        // prompt('Answer the question.');
+       
+       let Like = prompt('Do you like bettas?');
+       let result = Like.toLowerCase();
+        guessAttempts -= 1;
+        if (result == 'yes'){
             document.write('Liking bettas is correct');
-        } else if (Like == 'no'){
+            guessAttempts = false;
+            break;
+        } else if (result == 'no'){
             document.write('You don\'t like bettas, I see you have no taste.');
-        } else if (Like == ''){
-            prompt('Answer the question.') 
-            if (Like == ''){
-                prompt('I mean it')
-            }
-        }
-    return Like
+            guessAttempts = false;
+            break;
+        } 
+        else {
+            alert('Answer the question.')
+            guessAttempts = true;
+        } 
+    }
+    
+    //return result
 }
 
 function sayYes() {
@@ -25,3 +39,13 @@ function sayYes() {
     document.write(text)
     return text
     }
+
+function bettaNumber() {
+    let number = prompt('How many bettas do you want to see?');
+
+    console.log(number)
+
+    for (let i = 0; i < number; i++) {
+        document.write("<img id=loop src='tep-dara-XzuefN2rSnQ-unsplash.jpg' alt='betta fish floating in a tank' />");
+    }
+}
