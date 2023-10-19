@@ -3,10 +3,8 @@
 let guessAttempts = true
 
 function question() {
-    //let Like = prompt('Do you like bettas?');
    
     while (guessAttempts){
-        // prompt('Answer the question.');
        
        let Like = prompt('Do you like bettas?');
        let result = Like.toLowerCase();
@@ -26,7 +24,6 @@ function question() {
         } 
     }
     
-    //return result
 }
 
 function sayYes() {
